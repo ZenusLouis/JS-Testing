@@ -4,6 +4,7 @@ const app = require('../index'); // Adjust the path if needed
 const Employee = require('../models/Employee');
 
 describe('Employee API', () => {
+  let testEmployeeId;
 
   beforeAll(async () => {
     // Connect to a test database before running the tests
