@@ -1,0 +1,42 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.nav {
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #c5c1c1;
+  border-radius: 10%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #131314;
+  font-size: 20px;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+  padding: 1.5rem;
+  font-weight: bold;
+  width: 12rem;
+  text-align: center;
+}
+
+.nav a:hover {
+  color: #ffffff;
+  background-color: #090909;
+  border-radius: 50px;
+}
