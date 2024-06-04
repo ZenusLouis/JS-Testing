@@ -34,36 +34,38 @@ const Add = () => {
     }
   };
 
-  return (
-    <form className="form-container" onSubmit={handleSubmit}>
-      <input
-        type="text"
-        placeholder="Name"
-        name="name"
-        value={employee.name}
-        onChange={handleChange}
-        className="form-input"
-      />
-      <input
-        type="text"
-        placeholder="Position"
-        name="position"
-        value={employee.position}
-        onChange={handleChange}
-        className="form-input"
-      />
-      <input
-        type="text"
-        placeholder="Department"
-        name="department"
-        value={employee.department}
-        onChange={handleChange}
-        className="form-input"
-      />
-      <button type="submit" className="form-button">
-        Add Employee
-      </button>
-    </form>
+  return React.createElement(
+    "form",
+    { className: "form-container", onSubmit: handleSubmit },
+    React.createElement("input", {
+      type: "text",
+      placeholder: "Name",
+      name: "name",
+      value: employee.name,
+      onChange: handleChange,
+      className: "form-input",
+    }),
+    React.createElement("input", {
+      type: "text",
+      placeholder: "Position",
+      name: "position",
+      value: employee.position,
+      onChange: handleChange,
+      className: "form-input",
+    }),
+    React.createElement("input", {
+      type: "text",
+      placeholder: "Department",
+      name: "department",
+      value: employee.department,
+      onChange: handleChange,
+      className: "form-input",
+    }),
+    React.createElement(
+      "button",
+      { type: "submit", className: "form-button" },
+      "Add Employee"
+    )
   );
 };
 
