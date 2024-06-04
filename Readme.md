@@ -11,7 +11,7 @@ The server testing suite is located in the `Employee-Application` directory. It 
 1. Navigate to the `Employee-Application` directory.
 2. Ensure that MongoDB is running locally or accessible at the configured URI.
 3. Run `npm update` to ensure all modules are updated to their latest versions.
-4. Run `npm test` to execute the server tests using the test framework configured in the project.
+4. Run `npx jasmine` to execute the server tests using the test framework configured in the project.
 
 ## Frontend Testing
 
@@ -21,7 +21,7 @@ The frontend testing suite is located in the `TestFrontEnd` directory. It contai
 
 1. Navigate to the `TestFrontEnd` directory.
 2. Run `npm update` to ensure all modules are updated to their latest versions.
-3. Run `npm test` to execute the frontend tests using Jasmine.
+3. Run `npx jasmine` to execute the frontend tests using Jasmine.
 
 For setting up Jasmine for frontend testing, please refer to the [Jasmine documentation](https://jasmine.github.io/setup/nodejs.html).
 
