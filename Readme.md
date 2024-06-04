@@ -20,7 +20,7 @@ The server testing suite is located in the `Employee-Application` directory. It 
 The frontend testing suite is located in the `TestFrontEnd` directory. It contains Jasmine tests to verify the functionality of the frontend components and interactions. To run these tests, follow these steps:
 
 1. Navigate to the `TestFrontEnd` directory.
-2. Run `npm update` to ensure all modules are updated to their latest versions.
+2. Run `npm update` to ensure all modules are updated to their latest versions. If you have error when update you can try `npm update --force`
 3. Run `npx jasmine` to execute the frontend tests using Jasmine.
 
 For setting up Jasmine for frontend testing, please refer to the [Jasmine documentation](https://jasmine.github.io/setup/nodejs.html).
