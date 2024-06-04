@@ -54,13 +54,6 @@ describe('Employee API', () => {
     });
   });  
 
-
-  // it('GET /employees/:id should return a specific employee', async () => {
-  //   const response = await request(app).get(`/employees/${testEmployeeId}`);
-  //   expect(response.status).toBe(200);
-  //   expect(response.body._id).toBe(testEmployeeId.toString());
-  // });
-
   // it('POST /employees/add should add a new employee', async () => {
   //   const newEmployeeData = {
   //     name: 'New Employee',
